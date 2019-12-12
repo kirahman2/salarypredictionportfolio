@@ -1,5 +1,4 @@
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
+![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/salary-image.png)
 # How Employee Information Be Used To Predict Their Salary?
 
 ## Introduction
@@ -15,11 +14,22 @@ The data is part of an existing data set that includes employee information. The
 For the data cleaning process, I followed the steps listed below.
 * Removed 5 rows who's salaries were 0, which indicates missing values 
 * Removed 7117 rows with salary more than 220 since this goes beyond the upper 75% percentile
-* Certain individuals had a degree beyond high school, but "None" listed for their major, I relabelled as "Missing." The other group with major listed as None were those who had a high school education. It did not make sense to group the two together.
-* Imputed categorical variables including company id, job type, degree, major and industry.
+* Records with a degree and major listed as "None" were replaced with "Missing"
+* Imputed categorical variables including company id, job type, degree, major and industry
 
 ## Exploratory Data Analysis
+I thought it would be fun to ask more immediate exciting questions such as.. Does higher level education result in significant increase in pay? It turns out they are all fairly comparable to a bachelors and masters. 
 
-## Modeling
+![alt text](INSERT https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/boxplot_degree.png)
 
-## Conclusion
+How do industries stack up amongst one another?
+
+![alt text](INSERT https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/boxplot_industry.png)
+
+What if we look specifically at Doctorals by PhD?
+
+![alt text](INSERT https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/boxplot_doctoral_industry.png)
+
+Though if we look at all these boxplots, what’s important is seeing the upward trend and groups that are provide information to help create a model for predicting salaries. 
+
+What story are we telling… we need to tell a story.. What information does our EDA provide or reveal to us what things we need to include? NEXT, study sashas README to understand the story.
