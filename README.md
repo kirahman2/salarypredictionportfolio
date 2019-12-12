@@ -1,5 +1,5 @@
 ![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/salary-image.png)
-# How Employee Information Be Used To Predict Their Salary?
+# How Can We Predict Salary Based on Employee Job Descriptions?
 
 ## Introduction
 For this salary prediction project I am examining different attributes of employee information to predict their salary. 
@@ -20,15 +20,15 @@ For the data cleaning process, I followed the steps listed below.
 ## Exploratory Data Analysis
 I thought it would be fun to ask more immediate exciting questions such as.. Does higher level education result in significant increase in pay? It turns out they are all fairly comparable to a bachelors and masters. 
 
-![alt text](INSERT https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/boxplot_degree.png)
+![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/boxplot_degree.png)
 
 How do industries stack up amongst one another?
 
-![alt text](INSERT https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/boxplot_industry.png)
+![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/boxplot_industry.png)
 
 What if we look specifically at Doctorals by PhD?
 
-![alt text](INSERT https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/boxplot_doctoral_industry.png)
+![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/boxplot_doctoral_industry.png)
 
 Though if we look at all these boxplots, what’s important is seeing the upward trend and groups that are provide information to help create a model for predicting salaries. 
 
