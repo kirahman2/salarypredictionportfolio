@@ -18,18 +18,23 @@ For the data cleaning process, I followed the steps listed below.
 * Imputed categorical variables including company id, job type, degree, major and industry
 
 ## Exploratory Data Analysis
-I thought it would be fun to ask more immediate exciting questions such as.. Does higher level education result in significant increase in pay? It turns out they are all fairly comparable to a bachelors and masters. 
+Prior to the exploratory phase I hypothesized that a higher level education equated with a higher salary. To test this theory, I looked at a boxplot of salary compared against degree. 
 
-![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/boxplot_degree.png)
+IMAGE degree
 
-How do industries stack up amongst one another?
+It turns out that someone with a PhD earns only slightly more than someone with a masters and bachelors. (include actual average pay). 
 
-![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/boxplot_industry.png)
+I then wondered about industries and hypothesized that the web industry would be the highest earning. On second thought, after seeing the results, it makes sense that Oil and Finance would be the highest earning industries. 
 
-What if we look specifically at Doctorals by PhD?
+IMAGE industry
 
-![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/boxplot_doctoral_industry.png)
+After examining the results of each feature, I noticed Company Id was divided into 63 groups. After diving deeper and examining each feature against company Id, I did not find any signs of grouping. I did however notice variation in the average salary for each Company Id group. 
 
-Though if we look at all these boxplots, what’s important is seeing the upward trend and groups that are provide information to help create a model for predicting salaries. 
+IMAGE salary_compid
 
-What story are we telling… we need to tell a story.. What information does our EDA provide or reveal to us what things we need to include? NEXT, study sashas README to understand the story.
+Looking a bit deeper, within each company id group, there were variations in earnings by job title, degree, major and industry. For example,
+
+IMAGE comp19 and 37
+
+The variations in company salary were important signals to consider. 
+
