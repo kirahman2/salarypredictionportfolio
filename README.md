@@ -2,24 +2,24 @@
 # How Can We Predict Salary Based on Employee Job Descriptions?
 
 ## Introduction
-For this salary prediction project I am examining different attributes of employee information to predict their salary
+For this salary prediction project I examined different attributes of employee information to predict their salary
 
 ## Data
-The data is part of an existing data set that includes employee information. The features of the dataset used include job id, company id, job type, degree, major, industry, years experience and miles the employee lives from from the metropolitan city. The actual size of the dataset is 1,000,000 rows. 
+The data is part of an existing data set that includes employee information. The features of the dataset include job id, company id, job type, degree, major, industry, years experience and miles the employee lives from from the metropolitan city. The actual size of the dataset is 1,000,000 rows. 
 
 ## Preprocessing
 For the data cleaning process, I followed the steps listed below.
-* Removed 5 rows who's salaries were 0, which indicates missing values 
-* Removed 7117 rows with salary more than 220 since this goes beyond the upper 75% percentile
+* Removed 5 rows where salary equaled 0, which indicated missing values 
+* Removed 7117 rows for salaries more than 220 since this goes beyond the upper 75% percentile (outlier removal)
 * Records with a degree and major listed as "None" were replaced with "Missing"
-* Imputed categorical variables including company id, job type, degree, major and industry
+* Categorical variables were imputed which included company id, job type, degree, major and industry
 
 ## Exploratory Data Analysis
 Prior to the exploratory phase I hypothesized that a higher level education equated with a higher salary. To test this theory, I looked at a boxplot of salary compared against degree. It turns out that someone with a PhD earns only slightly more than someone with a masters and bachelors.
 
 ![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/salary_degree.png)
 
-I then wondered about industries and hypothesized that the web industry would be the highest earning. It turns out Finance and Oil are the highest earning industries. 
+I was then curious about the different industries and hypothesized that the web industry would be the highest earning. It turns out Finance and Oil are the highest earning industries. 
 
 ![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/salary_industry.png)
 
