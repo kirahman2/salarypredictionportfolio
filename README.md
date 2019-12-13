@@ -25,7 +25,7 @@ I was then curious about the different industries and hypothesized that the web 
 
 After examining the results of each feature, I noticed Company Id was divided into 63 groups. After diving deeper and examining each feature against company Id, I did not find signs of grouping. I did however notice variation in the average salary for each Company Id group. 
 
-![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/salary_compid.png)
+![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/salary_compid_.png)
 
 Looking a bit deeper, within each company id group, there were variations in earnings by job title, degree, major and industry. In the example below you can see the slight different in the mean value, but even more obvious, are the outliers. 
 
