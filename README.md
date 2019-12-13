@@ -27,7 +27,7 @@ After examining the results of each feature, I noticed Company Id was divided in
 
 ![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/salary_compid_.png)
 
-Looking a bit deeper, within each company id group, there were variations in earnings by job title, degree, major and industry. In the example below you can see the slight different in the mean value, but even more obvious, are the outliers. 
+Looking a bit deeper, within each company id group, there were variations in earnings by job title, degree, major and industry. In the example below you can see the slight different in the mean value. The mean salary of Comp19 is 123.9 and for Comp37, 124.2. What's even more obvious are the outliers, which can influence our predictions. 
 
 ![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/salary__comp19.png)
 ![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/salary__comp37.png)
