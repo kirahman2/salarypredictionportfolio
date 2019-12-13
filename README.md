@@ -27,7 +27,7 @@ After examining the results of each feature, I noticed Company Id was divided in
 
 ![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/salary_compid.png)
 
-Looking a bit deeper, within each company id group, there were variations in earnings by job title, degree, major and industry. For example,
+Looking a bit deeper, within each company id group, there were variations in earnings by job title, degree, major and industry. In the example below you can see the slight different in the mean value, but even more obvious, are the outliers. 
 
 ![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/salary_comp19_.png)
 ![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/salary_comp37_.png)
