@@ -12,7 +12,7 @@ For the data cleaning process, I followed the steps listed below.
 * Removed 5 rows where salary equaled 0, which indicated missing values 
 * Removed 7117 rows for salaries more than 220 since this goes beyond the upper 75% percentile (outlier removal)
 * Records with a degree and major listed as "None" were replaced with "Missing"
-* Categorical variables were imputed which included company id, job type, degree, major and industry
+* Imputed categorical variables including company id, job type, degree, major and industry 
 
 ## Exploratory Data Analysis
 Prior to the exploratory phase I hypothesized that a higher level education equated with a higher salary. To test this theory, I looked at a boxplot of salary compared against degree. It turns out that someone with a PhD earns only slightly more than someone with a masters and bachelors.
@@ -35,7 +35,7 @@ Looking a bit deeper, within each company id group, there were variations in ear
 The variations in company salary were important signals to consider. 
 
 ## Modeling
-After examining the data I removed outliers below the 25th and above the 75th percentile, keeping the inter quartile range. This resulted in 992,418 records in our dataset. 
+After examining the data, I removed outliers below the 25th and above the 75th percentile, keeping the inter quartile range. This resulted in 992,418 records in our dataset. 
 
 After reviewing the EDA process, I established the following features as predictors for training the model. 
 
