@@ -60,3 +60,7 @@ Here are the results of the regression models below after manually tuning and co
 | XGB Regressor     | 350.71 MSE| 340.92 MSE|
 | Gradient Boosting Regressor | 350.81 MSE| 341.48 MSE|
 
+## Conclusion
+One key take away from this project was to see how an individuals industry significantly influences their salary. For example, one could have a PhD, but they are likely to earn more in the Oil and Finance industry than Service or Education. Perhaps students looking to invest in student loans could make a more informed decision about the level of education they might pursue while considering the potential salary earnings they could expect based on their desired industry. 
+
+Future iterations of this project would include further EDA and feature engineering specifically for folks who earn more than $220,000 a year. With removing outliers beyond the upper quartile (75th percentile), our ability to make accurate predictions for salaries beyond that threshold is effected. I would consider performing EDA on this subset of records. Then I would create features specific to the subset to enhance the models predictive accuracy for these records that go beyond the 75th percentile.
