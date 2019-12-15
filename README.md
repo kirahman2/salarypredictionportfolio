@@ -52,4 +52,11 @@ This brought us to a total of 11 predictors.
 
 I selected a ¾ - ¼ train-test split for the models.
 
-Here are the results of the regression models below. I first used manual tuning and completed tuning using grid search. 
+Here are the results of the regression models below after manually tuning and completing using grid search. 
+
+| Model   | Performance | Performance with Hyperparam. Tuning | 
+| :------------- |:-------------|:-----|
+| Random Forest Regressor | 413.84 MSE| 352.18 MSE|
+| XGB Regressor     | 350.71 MSE| 340.92 MSE|
+| Gradient Boosting Regressor | 350.81 MSE| 341.48 MSE|
+
