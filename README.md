@@ -10,7 +10,7 @@ The data is part of an existing data set that includes employee information. The
 ## Preprocessing
 For the data cleaning process, I followed the steps listed below.
 * Removed 5 rows where salary equaled 0, which indicated missing values 
-* Removed 7117 rows for salaries more than 220 since this goes beyond the upper 75% percentile (outlier removal)
+* Removed 7117 rows for salaries more than $220,000 since this goes beyond the upper 75% percentile (outlier removal)
 * Records with a degree and major listed as "None" were replaced with "Missing"
 * Imputed categorical variables including company id, job type, degree, major and industry 
 
