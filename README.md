@@ -5,13 +5,13 @@
 For this salary prediction project I examined different attributes of employee information to predict their salary.
 
 ## Data
-The data is part of an existing data set that includes employee information. The features of the dataset include job id, company id, job type, degree, major, industry, years experience and miles the employee lives from from the metropolitan city. The actual size of the dataset is 1,000,000 rows. 
+The data is part of an existing data set that includes employee information. The features of the dataset include job id, company id, job type, degree, major, industry, years experience and miles the employee lives from the metropolitan city. The actual size of the dataset is 1,000,000 rows. 
 
 ## Preprocessing
 For the data cleaning process, I followed the steps listed below.
 * Removed 5 rows where salary equaled 0, which indicated missing values 
 * Removed 7117 rows for salaries more than $220,000 since this goes beyond the upper 75% percentile (outlier removal)
-* Records with a degree and major listed as "None" were replaced with "Missing"
+* Replaced records with a degree and major listed as "None" with "Missing"
 * Imputed categorical variables including company id, job type, degree, major and industry 
 
 ## Exploratory Data Analysis
