@@ -2,7 +2,7 @@
 # How Can We Predict Salary Based on Employee Job Descriptions?
 
 ## Introduction
-For this salary prediction project I examined different attributes of employee information to predict their salary
+For this salary prediction project I examined different attributes of employee information to predict their salary.
 
 ## Data
 The data is part of an existing data set that includes employee information. The features of the dataset include job id, company id, job type, degree, major, industry, years experience and miles the employee lives from from the metropolitan city. The actual size of the dataset is 1,000,000 rows. 
