@@ -2,10 +2,10 @@
 # How Can We Predict Salary Based on Employee Job Descriptions?
 
 ## Introduction
-For this salary prediction project I examined different attributes of employee information to predict their salary.
+For this salary prediction project I examined different attributes of employee information to predict their salary. [Click to View Python Code/Notebook](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Salary%20Prediction%20Notebook.ipynb)
 
 ## Data
-The data is part of an existing data set that includes employee information. The features of the dataset include job id, company id, job type, degree, major, industry, years experience and miles the employee lives from the metropolitan city. The actual size of the dataset is 1,000,000 rows. 
+The data is part of an existing data set that includes employee information. The features of the dataset include job id, company id, job type, degree, major, industry, years experience and miles the employee lives from the metropolitan city. The actual size of the dataset is 1,000,000 rows. [(data source)](https://www.dropbox.com/sh/sctol7wx1n9qhkh/AAB0LBPBhqmoHLyw04fHRpcPa?dl=0)
 
 ## Preprocessing
 For the data cleaning process, I followed the steps listed below.
@@ -15,7 +15,7 @@ For the data cleaning process, I followed the steps listed below.
 * Imputed categorical variables including company id, job type, degree, major and industry 
 
 ## Exploratory Data Analysis
-Prior to the exploratory phase I hypothesized that a higher level education equated with a higher salary. To test this theory, I looked at a boxplot of salary compared against degree. It turns out that someone with a PhD earns only slightly more than someone with a masters and bachelors.
+Prior to the exploratory phase I hypothesized that a higher level education equated with a higher salary. To test this theory, I looked at boxplots of salary compared against degree. It turns out that someone with a PhD earns only slightly more than someone with a masters and bachelors. [Click to View Data Analysis Notebook](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Salary%20Prediction%20EDA.ipynb)
 
 ![alt text](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Images/salary_degree.png)
 
