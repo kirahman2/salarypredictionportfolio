@@ -5,7 +5,7 @@
 For this salary prediction project I examined different attributes of employee information to predict their salary. [Click to View Python Code/Notebook](https://github.com/kirahman2/salarypredictionportfolio/blob/master/Salary%20Prediction%20Notebook.ipynb)
 
 ## Data
-The data is part of an existing data set that includes employee information. The features of the dataset include job id, company id, job type, degree, major, industry, years experience and miles the employee lives from the metropolitan city. The actual size of the dataset is 1,000,000 rows. [(data source)](https://www.dropbox.com/sh/sctol7wx1n9qhkh/AAB0LBPBhqmoHLyw04fHRpcPa?dl=0)
+The data comes from Indeed (job search engine) and includes employee information. The features of the dataset include job id, company id, job type, degree, major, industry, years experience and miles the employee lives from the metropolitan city. The actual size of the dataset is 1,000,000 rows. [(data source)](https://www.dropbox.com/sh/sctol7wx1n9qhkh/AAB0LBPBhqmoHLyw04fHRpcPa?dl=0)
 
 ## Preprocessing
 For the data cleaning process, I followed the steps listed below.
